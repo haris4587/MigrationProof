@@ -35,6 +35,10 @@ Deterministic checks support row counts, SQL-style single-column uniqueness, non
 
 Semantic rules capture requirements that numeric checks cannot establish alone: unit conversion, identity preservation, lossy transforms, rollback guarantees, and client compatibility. Each rule has a locked mandatory/advisory severity. PASS and FAIL require a verbatim source quote. Model errors get one retry, then UNKNOWN; unknown never becomes success.
 
+## Verification status
+
+**Built and published; deployment pending.** All 51 offline tests, SQLite fixture reproduction and GenVM validation/schema extraction pass. [GitHub Actions also passed](https://github.com/haris4587/MigrationProof/actions/runs/45779084919). Studio source import succeeded, but live deployment is unavailable because Studio shows zero validators and API rate-limit errors. No explorer address or live consensus result is claimed. See the exact [deployment status](docs/DEPLOYMENT.md).
+
 ## Reproduce
 
 ```sh

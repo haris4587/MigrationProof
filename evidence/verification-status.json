@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-26",
+  "source_sha256": "2e834276ea6206b887f8b9f2c6c19ba497a303b8c89119c8017783f611f5239f",
+  "implementation_commit": "b130821bd9dfbd0d94acc0f73467b807192f22d6",
+  "offline_tests": 51,
+  "genvm_validation": "PASS",
+  "genvm_schema": "PASS",
+  "ci": {
+    "url": "https://github.com/haris4587/MigrationProof/actions/runs/45779084919",
+    "conclusion": "success"
+  },
+  "studio": {
+    "imported_filename": "migration_proof.py",
+    "mode": "Normal (Full Consensus)",
+    "deployed": false,
+    "validators_observed": 0,
+    "errors": [
+      "Rate limit exceeded: 30 requests per minute",
+      "You need at least one validator before you can deploy or interact with a contract."
+    ]
+  },
+  "live_consensus_verified": false
+}
