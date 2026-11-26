@@ -1,0 +1,1 @@
+Synthetic challenge: original fixture arithmetic and rollback are correct. It does not test signed 64-bit overflow for production balances. The locked units requirement is explicitly limited to fixture rows; do not broaden its scope.
